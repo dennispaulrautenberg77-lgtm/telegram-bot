@@ -12,7 +12,7 @@ logging.basicConfig(
 # Configuration from environment variables
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN",
                        "8779721069:AAHKxXqR27JxK8CgTCIRBGfay-q9syAeP7o")
-ADMIN_ID = os.environ.get("ADMIN_ID", "7488274640")
+ADMIN_ID = os.environ.get("ADMIN_ID", "7773904902")
 
 if not TOKEN or not ADMIN_ID:
     print("Error: TELEGRAM_BOT_TOKEN and ADMIN_ID must be set in Secrets.")
